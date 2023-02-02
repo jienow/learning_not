@@ -66,9 +66,9 @@
 
 #### 分区
 
- `fdist -l` 查看存储设备
+ `fdisk -l` 查看存储设备
 
-`fdist /dev/存储设备` 进入设备并且分区
+`fdisk /dev/存储设备` 进入设备并且分区
 
 - `g` 创建新的分区列表
 - `w` 写入
@@ -212,5 +212,10 @@
 
 `reboot` 重启
 
+----
 
+#### 后记
 
+`systemctl enable --now dhcpcd` 网络
+
+`ping www.baidu.com` 记得加www
