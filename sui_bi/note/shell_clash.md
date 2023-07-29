@@ -6,6 +6,14 @@
 3.创建好`~/.config/clash`目录
 4.在clash目录里面
 
+​	 **文件找到连接之后通过下面连接来转换，我们使用的是clash，所以要转换成clash格式的连接**
+
+```
+https://acl4ssr-sub.github.io/
+```
+
+​	**文件最好通过已经可以连接外网的机器下载，然后传输上去**
+
 ```cc
 wget -O config.yaml 您的订阅链接
 wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
