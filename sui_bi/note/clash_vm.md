@@ -9,5 +9,10 @@
 2. nat使用的是虚拟网卡，在任何时候ip都是一样的
 #### 下面是设置操作
 1. 其次我们要知道clash for windows有允许局域网连接的选项首先将这个选项勾选
+![alt text](image.png)
 2. 设置windows的防火墙（调试的时候，如果连不上，就试着关闭防火墙）
+![alt text](image-4.png)
+    1. 启动局域网，clash for windows在网络服务里面一共有两个服务，分别是clash fron windows和clash-win64，前面的不知道，后面的是负责局域网的服务，一般是**关闭**的，需要手动启动
+    ![alt text](image-5.png)
 3. 禁止其他ip访问，禁止同一局域网下的其他机器连接
+![alt text](image-6.png)
