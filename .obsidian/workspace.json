@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "725183bac378da4f",
+        "id": "c32701d38a89c0a2",
         "type": "tabs",
         "children": [
           {
-            "id": "15d917deab65a612",
+            "id": "78b3120baf60b4e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "计算机网络/第三章数据链路层/3.2数据链路的三个重要问题.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "3.2数据链路的三个重要问题"
+            }
+          },
+          {
+            "id": "087dc45674a982fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "计算机网络/第一章介绍/1.2因特网概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "1.2因特网概述 的反向链接列表"
             }
           },
           {
@@ -102,10 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "毕设笔记（代码共享平台）/第一阶段.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "第一阶段 的出链列表"
             }
           },
           {
@@ -116,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -125,8 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              }
+                "file": "毕设笔记（代码共享平台）/第一阶段.md"
+              },
+              "icon": "lucide-list",
+              "title": "第一阶段 的大纲"
             }
           }
         ]
@@ -146,33 +177,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "15d917deab65a612",
+  "active": "087dc45674a982fe",
   "lastOpenFiles": [
-    "img/Pasted image 20240703091647.png",
-    "README.md",
+    "计算机网络/第三章数据链路层/3.2数据链路的三个重要问题.md",
+    "未命名.md",
+    "未命名.canvas",
+    "计算机网络/第三章数据链路层/3.1概述.md",
+    "计算机网络/第二章物理层/2.1基本概念.md",
+    "计算机网络/第一章介绍/1.2因特网概述.md",
+    "计算机网络/第三章数据链路层",
+    "计算机网络/第一章介绍/1.5计算机网络的性能指标.md",
+    "计算机网络/第一章介绍/1.4计算机网络定义与分类.md",
+    "计算机网络/第一章介绍/1.3三种交换方式.md",
+    "计算机网络/第二章物理层/2.5极限容量.md",
+    "计算机网络/第二章物理层/2.4编码和调制.md",
+    "计算机网络/第二章物理层/2.2物理层下面的传输媒体.md",
+    "计算机网络/第二章物理层/2.2传输方式.md",
+    "计算机网络/第一章介绍/1.6计算机网络体系结构.md",
+    "计算机网络/第一章介绍/image/计算机网络.png",
+    "计算机网络/第二章物理层",
+    "img/Pasted image 20250101135548.png",
+    "毕设笔记（代码共享平台）/第一阶段.md",
+    "毕设笔记（代码共享平台）/未命名",
     "img/Pasted image 20240630081638.png",
-    "sui_bi/clash/clash的使用.md",
+    "Maki数学/note/ReadMathBook.md",
+    "毕设笔记（代码共享平台）",
+    "Maki数学/note/HowToLoveMath.md",
+    "README.md",
+    "haskell/haskell_hanshu.md",
+    "haskell/日记.md",
+    "algorithm/333742740A3FCAC529544A7E75B89BA0.png",
+    "线性代数/方程组的几何解释/2.png",
+    "计算机组成原理/2.2/note/2.2.1.md",
+    "概率论与数理统计/1/note/1.1.2.md",
+    "操作系统/第一章/image/操作系统运行机制.png",
+    "操作系统/第一章/image/操作系统体系结构_新型内核布局.png",
+    "操作系统/第二章/image/pcb.png",
+    "vpn相关/note/arch_installing.md",
+    "vpn相关/clash/clash的使用.md",
+    "小彭老师/note/cmake_project_module.md",
+    "java/note/spring1.md",
+    "线性代数/方程组的几何解释/tu1_ErWei.png",
+    "线性代数/方程组的几何解释/CA434C4DF2E2607286084950762D7431.png",
+    "概率论与数理统计/1/note/1.2.5.md",
     "img",
     "sui_bi/clash/~$clash.docx",
     "sui_bi/clash/~WRL2960.tmp",
     "sui_bi/clash/~WRD2913.tmp",
     "sui_bi/clash/~WRL0005.tmp",
-    "sui_bi/clash/~WRD0004.tmp",
-    "sui_bi/clash/~WRL0003.tmp",
-    "sui_bi/clash/~WRD0002.tmp",
-    "sui_bi/clash/~$ash的使用.docx",
-    "sui_bi/clash/clash的使用.docx",
-    "img/Pasted image 20240630082500.png",
-    "img/Pasted image 20240630082426.png",
-    "img/Pasted image 20240630082350.png",
-    "img/Pasted image 20240630082317.png",
-    "img/Pasted image 20240630082207.png",
-    "img/Pasted image 20240630082126.png",
-    "img/Pasted image 20240630081926.png",
-    "Pasted image 20240630081837.png",
-    "sui_bi/note/arch_installing2.md",
-    "sui_bi/note/arch_installing.md",
-    "sui_bi/note/clash_vm.md",
-    "sui_bi/note/shell_clash.md"
+    "sui_bi/clash/~WRD0004.tmp"
   ]
 }
