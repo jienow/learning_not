@@ -32,7 +32,7 @@ public class ISOCodeResolver {
 }
 
 @Command(name = "language",
-  description = "Resolves one or more ISO language codes (ISO-639-1 or 639-2)") 
+  description = "Resolves one or more ISO language codes (ISO-639-1 or 639-2)")//2
 class SubcommandAsClass implements Runnable { //1
 
     @Parameters(arity = "1..*", paramLabel = "<languageCode>", description = "language code(s)")
@@ -48,4 +48,5 @@ class SubcommandAsClass implements Runnable { //1
 }
 ```
 代码解释精翻：
-1. 当顶层的命令并没有实现`Runnable`或者`Callable`，用户必须指定一个子命令（子命令必须是强制性的）。下面是可以选择的：如果父命令
+1. 当顶层的命令并没有实现`Runnable`或者`Callable`，用户必须指定一个子命令（子命令必须是强制性的）。下面是可以选择的：如果父命令在应用程序中没有子命令而自己执行，那么他必须实现`Runnable`或`Callable`。
+2. 使用`@Command`注释并且给他名字。注意到在注释中我们也能指定CommandLine.HelpCommand类作为子命令，去添加内建的`help`子命令
